@@ -126,5 +126,5 @@ function GetPoloniex() {
     });
 }
 
-setInterval(function(){ GetBitcoinTrade(); GetPoloniex(); DataAtual(); }, 100000);
+setInterval(function(){ GetBitcoinTrade(); GetPoloniex(); DataAtual(); }, 3000);
 
